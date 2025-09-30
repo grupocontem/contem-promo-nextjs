@@ -1,0 +1,62 @@
+.shell{
+    min-height: 100dvh;
+    background: radial-gradient(1200px 600px at 50% -10%, #ffebb5 0%, rgba(255,235,181,0) 60%),
+    linear-gradient(135deg, #ff7a18 0%, #ff9f3e 40%, #ffb347 100%);
+    color: #fff;
+}
+
+.greeting{
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+}
+.subtitle{ opacity: .9; letter-spacing: .3px; }
+.bigPoints{
+    font-size: 5rem; line-height: 1; font-weight: 900;
+    text-shadow: 0 6px 24px rgba(0,0,0,.18);
+}
+
+.cta{
+    background: #16a34a; border: 0; font-weight: 800; text-transform: uppercase; letter-spacing: .3px;
+}
+.cta:hover{ filter: brightness(1.06); }
+
+.card{
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(4px);
+    color: #fff;
+}
+
+.pointsTable :where(td){ color: #fff; }
+.pointsRow + .pointsRow td{ border-top: 1px dashed rgba(255,255,255,.25); }
+
+.badgePill{
+    display: inline-block; background: #fff; color: #b45309;
+    border-radius: 999px; padding: .35rem .8rem; font-weight: 800;
+}
+
+.ribbon{
+    background: rgba(255,255,255,.2);
+    border-radius: 999px;
+    padding: .6rem 1rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+.ribbonAlt{
+    background: rgba(0,0,0,.25);
+    border-radius: 999px;
+    padding: .6rem 1rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.disclaimer{ font-size: .8rem; opacity: .9; }
+
+.sectionTitle, .sectionSubtitle{
+    font-weight: 900; text-transform: uppercase; letter-spacing: 1px;
+}
+.sectionSubtitle{ opacity: .95; }

@@ -1,0 +1,10 @@
+.shell{
+    min-height: 100dvh;
+    background: radial-gradient(1200px 600px at 50% -10%, #ffebb5 0%, rgba(255,235,181,0) 60%),
+    linear-gradient(135deg, #ff7a18 0%, #ff9f3e 40%, #ffb347 100%);
+}
+.card{
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(4px);
+    color: #fff;
+}

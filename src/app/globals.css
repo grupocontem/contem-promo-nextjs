@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "QanelasSoft-SemiBold";
+    src: url("https://db.onlinewebfonts.com/t/40a1518b6afd994836bebb0f85e3b863.eot");
+    src: url("https://db.onlinewebfonts.com/t/40a1518b6afd994836bebb0f85e3b863.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/40a1518b6afd994836bebb0f85e3b863.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/40a1518b6afd994836bebb0f85e3b863.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/40a1518b6afd994836bebb0f85e3b863.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/40a1518b6afd994836bebb0f85e3b863.svg#QanelasSoft-SemiBold")format("svg");
+}
+
+:root {
+    --bg:#f8fafc;
+    --fg:#0f172a;
+    --card:#ffffff;
+    --muted:#475569;
+    --border: rgba(0,0,0,.08);
+    --brand:#3b82f6;
+}
+
+html.light {
+    --bg: #f8fafc;
+    --fg: #0f172a;
+    --card: #ffffff;
+    --muted: #475569;
+    --border: rgba(0, 0, 0, .08);
+}
+
+html, body {
+    height: 100%;
+    font-family: "QanelasSoft-SemiBold", serif;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    /*font-family: system-ui, -apple-system, Segoe UI, Inter, Roboto, Arial;*/
+}
+
+.app {
+    display: flex;
+    min-height: 100vh
+}

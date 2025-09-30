@@ -1,0 +1,10 @@
+/* src/app/login/login.module.css */
+.authShell {
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: linear-gradient(135deg, #ff7a18, #ffb347);
+}
+.authMain { width: 100%; max-width: 480px; }
+.brandImg { height: 40px; }
